@@ -32,10 +32,6 @@ ares-generate ERR! ares-generate: Error: 'git' command is not available on this 
 ```
 
 ares-generate 를 실행하면 git에서 sample source를 가져오는 것 같다.<br>
-그래서 터미널프로그램으로 mobaXterm을 설치하고 plugin으로 git을 설치해주었다.<br>
-* mobaXterm : [https://mobaxterm.mobatek.net](https://mobaxterm.mobatek.net)
-
-```
-apt-get install git
-```
+그래서 윈도우용 git을 설치하였다. <br>
+* git download : [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
