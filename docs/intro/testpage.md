@@ -4,7 +4,7 @@ title:
 nav_order: 5
 ---
 
-# Navigation Structure
+# 좌측메뉴이름
 {: .no_toc }
 
 ## Table of contents
