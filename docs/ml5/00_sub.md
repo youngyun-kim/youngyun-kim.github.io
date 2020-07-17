@@ -2,7 +2,7 @@
 layout: default
 title: 00_sub
 parent: ml5
-nav_order: 2
+nav_order: 1
 ---
 
 # 00_sub
