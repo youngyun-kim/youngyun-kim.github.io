@@ -25,5 +25,6 @@ Raspberry Pi 4 와 같은 device가 없어도 emulator로 실행해 볼 수 있�
 
 에뮬레이터로 실행하면 아래와 같이 실행되는 것을 확인할 수 있고,<br>
 Web Browser와 Youtube 를 실행해 볼 수 있다.<br>
-<small>webos-image-qemux86-master-20200528044350.wic 버전으로 실행한 결과</small>
+<br>
+<small>* 아래의 이미지는 webos-image-qemux86-master-20200528044350.wic 버전으로 실행한 결과</small>
 ![](./vbox_emulator_image.jpg)
