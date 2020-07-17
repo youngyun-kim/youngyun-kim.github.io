@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 
+title: 페이지 이름
 nav_order: 5
 ---
 
-# 좌측메뉴이름
+# 페이지이름
 {: .no_toc }
 
 ## Table of contents
