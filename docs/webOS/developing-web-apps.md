@@ -35,3 +35,13 @@ ares-generate 를 실행하면 git에서 sample source를 가져오는 것 같�
 그래서 윈도우용 git을 설치하였다. <br>
 * git download : [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
+```
+D:\>ares-generate -t webapp sampleApp
+? app id com.domain.app
+? title new app
+? version 1.0.0
+Generating webapp in D:\sampleApp
+Success
+```
+
+여기까지 실행하면 sampleApp 폴더에 생성된다.
