@@ -19,13 +19,14 @@ nav_order: 2
 ## 앱 만들기
 webOS 앱을 만들어보자.<br>
 자세한 내용은 나중에 보고, 우선 에뮬레이터에 간단하게 앱부터 실행해보자.<br>
+개발환경은 window10에서 실행했고, virtual box에 에뮬레이터 설치해서 시작해보자.<br>
 우선 아래의 가이드에 따라서 CLI 설치 및 환경설정 추가.<br>
 * 환경설정 : [https://www.webosose.org/docs/tutorials/web-apps/developing-external-web-apps/](https://www.webosose.org/docs/tutorials/web-apps/developing-external-web-apps/)
 <br>
 step1을 실행하자마자 error가 발생한다.<br>
 
 ```
-D:\> ares-generate -t webapp sampleApp
+> ares-generate -t webapp sampleApp
 ? app id com.domain.app
 ? title new app
 ? version 1.0.0
@@ -37,7 +38,7 @@ ares-generate 를 실행하면 git에서 sample source를 가져오는 것 같�
 * git download : [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 ```
-D:\>ares-generate -t webapp sampleApp
+>ares-generate -t webapp sampleApp
 ? app id com.domain.app
 ? title new app
 ? version 1.0.0
@@ -49,7 +50,7 @@ Success
 이제 step2,3은 건너뛰고, step4의 package 를 해보자.<br>
 
 ```
-D:\>ares-package sampleApp
+>ares-package sampleApp
 Create com.domain.app_1.0.0_all.ipk to D:\
 Success
 ```
@@ -60,7 +61,7 @@ step5의 package install 을 해야 하는데, 하기 전에 device 설정이 �
 하지만 emulator에 실행하므로 특별하게 설정하지 않았고, device 이름은 아래와 같이 확인할 수 있다.<br>
 
 ```
-D:\>ares-setup-device --list
+>ares-setup-device --list
 name      deviceinfo                connection  profile
 --------  ------------------------  ----------  -------
 emulator  developer@127.0.0.1:6622  ssh         ose
@@ -69,7 +70,7 @@ emulator  developer@127.0.0.1:6622  ssh         ose
 그리고 install 하면 설치가 완료된다.<br>
 
 ```
-D:\>ares-install --device emulator ./com.domain.app_1.0.0_all.ipk
+>ares-install --device emulator ./com.domain.app_1.0.0_all.ipk
 Installing package ./com.domain.app_1.0.0_all.ipk
 Success
 ```
@@ -77,8 +78,15 @@ Success
 이제 실행해보자.<br>
 
 ```
-D:\>ares-launch --device emulator com.domain.app
+>ares-launch --device emulator com.domain.app
 Launched application com.domain.app on display 0
 ```
+![](./vbox_emulator_hello_web_application.jpg)
 
+마지막으로 종료해보자.<br>
+
+```
+>ares-launch --device emulator --close com.domain.app
+Closed application com.domain.app on display 0
+```
 
