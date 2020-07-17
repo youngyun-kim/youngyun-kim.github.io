@@ -1,2 +1,2 @@
 # youngyun-kim.github.io
-블로그 데모
+Blog URL : youngyun-kim.github.io
