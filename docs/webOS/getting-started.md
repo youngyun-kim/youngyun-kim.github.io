@@ -16,4 +16,8 @@ nav_order: 1
 
 ---
 
-## 쉽게 시작하기
+## 우선 해보자
+webOS에 대해 잘 몰라도 우선 시작해볼 수 있다.<br>
+build 환경이 없어도 release 되는 이미지를 다운로드 받아서 해볼 수 있으며,<br>
+Raspberry Pi 4 와 같은 device가 없어도 emulator로 실행해 볼 수 있다.<br>
+* 버전 다운로드 : [http://build.webos-ports.org/webosose/](http://build.webos-ports.org/webosose/)
