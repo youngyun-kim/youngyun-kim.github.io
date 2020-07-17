@@ -23,7 +23,7 @@ webOS 앱을 만들어보자.<br>
 <br>
 아래의 명령어를 그냥 윈도우 터미널에서 실행하면 error가 발생한다.<br>
 
-```yaml
+```
 D:\> ares-generate -t webapp sampleApp
 ? app id com.domain.app
 ? title new app
@@ -34,7 +34,8 @@ ares-generate ERR! ares-generate: Error: 'git' command is not available on this 
 ares-generate 를 실행하면 git에서 sample source를 가져오는 것 같다.<br>
 그래서 터미널프로그램으로 mobaXterm을 설치하고 plugin으로 git을 설치해주었다.<br>
 * mobaXterm : [https://mobaxterm.mobatek.net](https://mobaxterm.mobatek.net)
-```yaml
+
+```
 apt-get install git
 ```
 
