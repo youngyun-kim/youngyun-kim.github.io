@@ -58,6 +58,7 @@ Success
 폴더에 com.domain.app_1.0.0_all.ipk 파일이 생성되었다.<br>
 step5의 package install 을 해야 하는데, 하기 전에 device 설정이 필요하다.<br>
 * device-setup : [https://www.webosose.org/docs/tools/sdk/cli/cli-user-guide/#ares-setup-device](https://www.webosose.org/docs/tools/sdk/cli/cli-user-guide/#ares-setup-device)
+
 하지만 emulator에 실행하므로 특별하게 설정하지 않았고, device 이름은 아래와 같이 확인할 수 있다.<br>
 
 ```
