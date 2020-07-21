@@ -67,8 +67,8 @@ To debug your service, set "localhost:56783" on Node's Inspector Client(Chrome D
 ```
 메뉴얼 및 comment를 보면 node's inspector client에서 실행하라고 한다.<br>
 inspector clients를 보면 여러가지 설명이 있는데(오픈소스라서 더 많은듯)<br>
-그 중에서 chrome devtools로 실행하는 방법은<br>
-chrome browser에서 "chrome://inspect" 를 입력하면 아래와 같은 화면이 나온다.<br>
+그 중에서 chrome devtools로 실행하는 방법은 chrome browser에서 "chrome://inspect" 를 입력하고<br>
+"configure" 에 위의 cmd 창에 나온 주소를 입력해주면 아래와 같이 remote target에서 tracing이 가능하다.<br>
 
 ![](./vbox_emulator_node_inspector.jpg)
 
