@@ -98,6 +98,5 @@ Closed application com.domain.app on display 0
 ares-inspect --device emulator --app com.domain.app --open
 Application Debugging - http://localhost:56664/devtools/inspector.html?ws=localhost:56664/devtools/page/4D0AE4C43
 E805B0CDBDA3F824CE8523F
-
 ```
 ![](./vbox_emulator_hello_web_application_debugging.jpg)
