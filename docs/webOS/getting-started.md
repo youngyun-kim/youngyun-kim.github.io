@@ -44,7 +44,7 @@ $ cd build-webos
 $ sudo scripts/prerequisites.sh
 
 # Configuring the Build for the Target Device
-
+# 원하는 device를 선택하면 된다. 나는 cpu가 8개라서 p,b 옵션을 4로 넣고, qemux86으로 빌드했다.
 $ ./mcf -p 4 -b 4 qemux86 (emulator)
 $ ./mcf -p 4 -b 4 raspberrypi4 (for webOS OSE 2.0 or higher)
 
@@ -52,7 +52,7 @@ $ ./mcf -p 4 -b 4 raspberrypi4 (for webOS OSE 2.0 or higher)
 $ make webos-image
 ```
 
-역시 한방에는 안된다.<br>
+build를 했더니 아래의 error를 보여준다. 역시 한방에는 안된다.<br>
 
 ```
 ERROR: The following required tools (as specified by HOSTTOOLS) appear to be unavailable iease install them in order to proceed:
